@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mrfengzi.github.io/Fluchuan.github.io/</id>
+    <id>https://mrfengzi.github.io/</id>
     <title>Fluchuan</title>
-    <updated>2019-10-03T01:46:05.677Z</updated>
+    <updated>2019-10-03T01:59:13.470Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mrfengzi.github.io/Fluchuan.github.io/"/>
-    <link rel="self" href="https://mrfengzi.github.io/Fluchuan.github.io//atom.xml"/>
+    <link rel="alternate" href="https://mrfengzi.github.io/"/>
+    <link rel="self" href="https://mrfengzi.github.io//atom.xml"/>
     <subtitle>The harder you are,the freer you are.</subtitle>
-    <logo>https://mrfengzi.github.io/Fluchuan.github.io//images/avatar.png</logo>
-    <icon>https://mrfengzi.github.io/Fluchuan.github.io//favicon.ico</icon>
+    <logo>https://mrfengzi.github.io//images/avatar.png</logo>
+    <icon>https://mrfengzi.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Fluchuan</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://mrfengzi.github.io/Fluchuan.github.io//post/hello-gridea</id>
-        <link href="https://mrfengzi.github.io/Fluchuan.github.io//post/hello-gridea">
+        <id>https://mrfengzi.github.io//post/hello-gridea</id>
+        <link href="https://mrfengzi.github.io//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
