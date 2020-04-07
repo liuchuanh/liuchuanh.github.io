@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fluchuan.github.io</id>
     <title>Fluchuan</title>
-    <updated>2020-04-07T10:02:52.793Z</updated>
+    <updated>2020-04-07T10:09:01.202Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fluchuan.github.io"/>
     <link rel="self" href="https://fluchuan.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, Fluchuan</rights>
     <entry>
         <title type="html"><![CDATA[java知识点总结]]></title>
-        <id>https://fluchuan.github.io/post/java-zhi-shi-dian-zong-jie</id>
-        <link href="https://fluchuan.github.io/post/java-zhi-shi-dian-zong-jie">
+        <id>https://fluchuan.github.io/post/java-zhi-shi-dian-zong-jie/</id>
+        <link href="https://fluchuan.github.io/post/java-zhi-shi-dian-zong-jie/">
         </link>
         <updated>2020-04-07T09:44:26.000Z</updated>
         <content type="html"><![CDATA[<h1 id="nihao">nihao</h1>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown语法]]></title>
-        <id>https://fluchuan.github.io/post/20191014</id>
-        <link href="https://fluchuan.github.io/post/20191014">
+        <id>https://fluchuan.github.io/post/20191014/</id>
+        <link href="https://fluchuan.github.io/post/20191014/">
         </link>
         <updated>2019-10-14T08:29:18.000Z</updated>
         <content type="html"><![CDATA[<h2 id="这是加粗的文字这是倾斜的文字这是斜体加粗的文字这是加删除线的文字"><strong>这是加粗的文字</strong><br>
@@ -33,7 +33,7 @@
 <p>这是引用的内容</p>
 </blockquote>
 <hr>
-<h2 id=""><img src="https://fluchuan.github.io/post-images/1571042950612.png" alt="图片"></h2>
+<h2 id=""><img src="https://fluchuan.github.io/post-images/1571042950612.png" alt="图片" loading="lazy"></h2>
 <h2 id="百度"><a href="www.baidu.com">百度</a></h2>
 <ul>
 <li>无序列表</li>
