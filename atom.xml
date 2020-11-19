@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuchuanh.github.io</id>
-    <title>Fluchuan</title>
-    <updated>2020-11-19T02:20:37.117Z</updated>
+    <title>chuan</title>
+    <updated>2020-11-19T02:21:59.660Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuchuanh.github.io"/>
     <link rel="self" href="https://liuchuanh.github.io/atom.xml"/>
     <subtitle>仅此一生。</subtitle>
     <logo>https://liuchuanh.github.io/images/avatar.png</logo>
     <icon>https://liuchuanh.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Fluchuan</rights>
+    <rights>All rights reserved 2020, chuan</rights>
     <entry>
         <title type="html"><![CDATA[动态代理]]></title>
         <id>https://liuchuanh.github.io/post/dong-tai-dai-li/</id>
