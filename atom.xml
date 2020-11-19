@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuchuanh.github.io</id>
     <title>Fluchuan</title>
-    <updated>2020-04-30T01:37:39.974Z</updated>
+    <updated>2020-11-19T02:17:01.874Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuchuanh.github.io"/>
     <link rel="self" href="https://liuchuanh.github.io/atom.xml"/>
@@ -10,6 +10,77 @@
     <logo>https://liuchuanh.github.io/images/avatar.png</logo>
     <icon>https://liuchuanh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Fluchuan</rights>
+    <entry>
+        <title type="html"><![CDATA[动态代理]]></title>
+        <id>https://liuchuanh.github.io/post/dong-tai-dai-li/</id>
+        <link href="https://liuchuanh.github.io/post/dong-tai-dai-li/">
+        </link>
+        <updated>2020-11-19T02:10:25.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>创建InvocationHandler的实现类</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[javaWeb三大组件]]></title>
+        <id>https://liuchuanh.github.io/post/javaweb-san-da-zu-jian/</id>
+        <link href="https://liuchuanh.github.io/post/javaweb-san-da-zu-jian/">
+        </link>
+        <updated>2020-11-19T01:34:33.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="filter">Filter</h3>
+<ol>
+<li>过滤器在服务器启动时创建，只会创建一个实例，常驻内存，服务器一旦启动就会执行init方法</li>
+<li>Filter的执行顺序
+<ol>
+<li>优先执行web.xml中的配置，执行顺序为<filter-mapping>中注册的顺序</li>
+<li>接着执行注解中filter，执行顺序为字母的顺序</li>
+</ol>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cookie的基本]]></title>
+        <id>https://liuchuanh.github.io/post/cookie-de-ji-ben/</id>
+        <link href="https://liuchuanh.github.io/post/cookie-de-ji-ben/">
+        </link>
+        <updated>2020-11-19T01:04:06.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>cookie是由浏览器自动携带提交给服务器的，不需要客户端手动提交，它被放在request header中，每个域下的cookiedd最大为4kb</li>
+<li>cookie属性
+<ul>
+<li>expires
+<blockquote>
+<p>cookie的失效时间</p>
+</blockquote>
+</li>
+<li>domain
+<blockquote>
+<p>域名,后端生成该cookie的域名</p>
+</blockquote>
+</li>
+<li>path
+<blockquote>
+<p>路径，请求路径，比如 &quot;/login&quot;</p>
+</blockquote>
+</li>
+<li>secure
+<blockquote>
+<p>当请求时https或者其他安全协议时，cookie才会被发送到服务器</p>
+</blockquote>
+</li>
+<li>httpOnly
+<blockquote>
+<p>默认为空，不为空说明js可以获取cookie中的值，</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>服务器端通过设置<kbd>Set-cookie</kbd>在responseHeader中设置cookie</li>
+<li><a href="http://www.ruanyifeng.com/blog/2016/04/cors.html">跨域解决</a></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[java知识点总结]]></title>
         <id>https://liuchuanh.github.io/post/java-zhi-shi-dian-zong-jie/</id>

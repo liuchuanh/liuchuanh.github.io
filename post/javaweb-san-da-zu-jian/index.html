@@ -5,7 +5,7 @@
   
 <meta charset="utf-8" >
 
-<title>java知识点总结 | Fluchuan</title>
+<title>javaWeb三大组件 | Fluchuan</title>
 <meta name="description" content="仅此一生。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -58,22 +58,31 @@
     <div class="content-container">
       <div class="post-detail">
         
-        <h2 class="post-title">java知识点总结</h2>
+        <h2 class="post-title">javaWeb三大组件</h2>
         <div class="post-info post-detail-info">
-          <span><i class="icon-calendar-outline"></i> 2020-04-07</span>
+          <span><i class="icon-calendar-outline"></i> 2020-11-19</span>
           
         </div>
         <div class="post-content">
-          <h1 id="nihao">nihao</h1>
+          <h3 id="filter">Filter</h3>
+<ol>
+<li>过滤器在服务器启动时创建，只会创建一个实例，常驻内存，服务器一旦启动就会执行init方法</li>
+<li>Filter的执行顺序
+<ol>
+<li>优先执行web.xml中的配置，执行顺序为<filter-mapping>中注册的顺序</li>
+<li>接着执行注解中filter，执行顺序为字母的顺序</li>
+</ol>
+</li>
+</ol>
 
         </div>
       </div>
 
       
       <div class="next-post">
-        <a class="purple-link" href="https://liuchuanh.github.io/post/20191014/">
+        <a class="purple-link" href="https://liuchuanh.github.io/post/cookie-de-ji-ben/">
           <h3 class="post-title">
-            下一篇：Markdown语法
+            下一篇：Cookie的基本
           </h3>
         </a>
       </div>

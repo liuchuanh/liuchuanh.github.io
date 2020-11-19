@@ -5,7 +5,7 @@
   
 <meta charset="utf-8" >
 
-<title>java知识点总结 | Fluchuan</title>
+<title>Cookie的基本 | Fluchuan</title>
 <meta name="description" content="仅此一生。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -58,22 +58,55 @@
     <div class="content-container">
       <div class="post-detail">
         
-        <h2 class="post-title">java知识点总结</h2>
+        <h2 class="post-title">Cookie的基本</h2>
         <div class="post-info post-detail-info">
-          <span><i class="icon-calendar-outline"></i> 2020-04-07</span>
+          <span><i class="icon-calendar-outline"></i> 2020-11-19</span>
           
         </div>
         <div class="post-content">
-          <h1 id="nihao">nihao</h1>
+          <ol>
+<li>cookie是由浏览器自动携带提交给服务器的，不需要客户端手动提交，它被放在request header中，每个域下的cookiedd最大为4kb</li>
+<li>cookie属性
+<ul>
+<li>expires
+<blockquote>
+<p>cookie的失效时间</p>
+</blockquote>
+</li>
+<li>domain
+<blockquote>
+<p>域名,后端生成该cookie的域名</p>
+</blockquote>
+</li>
+<li>path
+<blockquote>
+<p>路径，请求路径，比如 &quot;/login&quot;</p>
+</blockquote>
+</li>
+<li>secure
+<blockquote>
+<p>当请求时https或者其他安全协议时，cookie才会被发送到服务器</p>
+</blockquote>
+</li>
+<li>httpOnly
+<blockquote>
+<p>默认为空，不为空说明js可以获取cookie中的值，</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>服务器端通过设置<kbd>Set-cookie</kbd>在responseHeader中设置cookie</li>
+<li><a href="http://www.ruanyifeng.com/blog/2016/04/cors.html">跨域解决</a></li>
+</ol>
 
         </div>
       </div>
 
       
       <div class="next-post">
-        <a class="purple-link" href="https://liuchuanh.github.io/post/20191014/">
+        <a class="purple-link" href="https://liuchuanh.github.io/post/java-zhi-shi-dian-zong-jie/">
           <h3 class="post-title">
-            下一篇：Markdown语法
+            下一篇：java知识点总结
           </h3>
         </a>
       </div>
